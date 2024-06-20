@@ -1,0 +1,19 @@
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+  }
+
+.carousel::-webkit-scrollbar {
+    display: none;  
+}
+
+  .category-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    letter-spacing: 1px;
+    border-radius: 4px;
+   
+}
